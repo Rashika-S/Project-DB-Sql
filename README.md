@@ -1,124 +1,133 @@
-# college-admissions-sql
-🎯 Problem Statement
+# 📊 Project-DB-SQL  
+### Real-World Database Design using SQLite
 
-Design and implement a structured relational database system that models a real-world scenario, ensuring:
+---
 
-Proper table relationships
+## 📌 Overview  
 
-Elimination of redundancy (Normalization)
+This project was developed as a college Database Management System project focused on solving a structured real-world problem using relational database design.
 
-Enforcement of data integrity using constraints
+The goal was to design and implement a fully functional relational database using SQLite while applying normalization principles, constraints, and advanced SQL querying techniques.
 
-Efficient querying for analytical insights
+This project demonstrates practical understanding of database architecture, relational mapping, and analytical querying.
 
-The system must support data storage, retrieval, filtering, aggregation, and reporting.
+---
 
-🛠 Tech Stack
+## 🎯 Objective  
 
-Database Engine: SQLite
+- Design a normalized relational database  
+- Implement schema using SQLite  
+- Establish primary and foreign key relationships  
+- Enforce data integrity using constraints  
+- Perform complex SQL queries for analysis  
+- Simulate real-world data handling using dummy data  
 
-Language: SQL
+---
 
-Environment: SQLite CLI / DB Browser for SQLite
+## 🛠 Tech Stack  
 
-🗂 Project Structure
+- **Database Engine:** SQLite  
+- **Language:** SQL  
+- **Tools Used:** SQLite CLI / DB Browser for SQLite  
+
+---
+
+## 🗂 Project Structure  
+
 Project-DB-SQL/
 │
-├── College_admissions.db       # SQLite database file
-├── codes_tables.sql            # Schema creation & table definitions
-├── Project_queries.sql         # All query implementations
-└── README.md
-🧱 Database Design
+├── College_admissions.db      # SQLite database file  
+├── codes_tables.sql           # Table creation & schema definitions  
+├── Project_queries.sql        # Query implementations  
+└── README.md  
+
+---
+
+## 🧱 Database Design  
 
 The database includes:
 
-Multiple related tables
+- Multiple related tables  
+- Primary Keys & Foreign Keys  
+- NOT NULL, UNIQUE, and other constraints  
+- Proper normalization  
+- Referential integrity enforcement  
 
-Primary Keys & Foreign Keys
+The structure ensures reduced redundancy and efficient data retrieval.
 
-Constraints (NOT NULL, UNIQUE, etc.)
+---
 
-Proper normalization structure
+## 🔎 SQL Concepts Implemented  
 
-Referential integrity
+This project covers:
 
-The schema supports realistic entity relationships and structured data flow.
+- SELECT queries  
+- WHERE filtering  
+- ORDER BY  
+- INNER JOIN and LEFT JOIN  
+- GROUP BY with aggregation functions  
+- Subqueries  
+- Nested queries  
+- Constraints implementation  
+- Relational mapping  
 
-🔎 SQL Concepts Implemented
+This demonstrates both foundational and intermediate SQL proficiency.
 
-This project includes implementation of:
+---
 
-Basic SELECT queries
+## 📊 Data  
 
-WHERE filtering
+The database uses dummy data to simulate realistic scenarios and test query logic.  
+Even though the dataset is simulated, the structure reflects real-world entity relationships.
 
-ORDER BY
+---
 
-INNER JOIN / LEFT JOIN
+## 🚀 How to Run  
 
-GROUP BY with Aggregations
+### Using SQLite CLI
 
-Subqueries
-
-Nested queries
-
-Data constraints
-
-Relational mapping
-
-This ensures coverage of both foundational and advanced SQL concepts.
-
-📊 Data
-
-The database uses dummy data to simulate real-world scenarios and enable query testing.
-
-Even though the dataset is simulated, it reflects realistic structure and logical relationships between entities.
-
-🚀 How to Run
-Option 1 – Using SQLite CLI
+```bash
 sqlite3 College_admissions.db
 .read codes_tables.sql
 .read Project_queries.sql
-Option 2 – Using DB Browser
+```
 
-Open DB Browser for SQLite
+### Using DB Browser for SQLite
 
-Load College_admissions.db
+1. Open DB Browser  
+2. Load `College_admissions.db`  
+3. Execute queries from `Project_queries.sql`
 
-Execute queries from Project_queries.sql
+---
 
-👥 Team Members
+## 👥 Team Members  
 
-Varshan R K
+- Varshan R K  
+- Rashika S  
+- Mohith B N  
 
-Rashika S
+---
 
-Mohith B N
+## 📈 Learning Outcomes  
 
-📈 Learning Outcomes
+- Understanding relational database design  
+- Applying normalization concepts  
+- Writing complex SQL queries  
+- Managing structured data efficiently  
+- Collaborative database development  
 
-Through this project, we developed:
+---
 
-Strong understanding of relational database design
+## 🔮 Future Enhancements  
 
-Practical implementation of normalization
+- Integration with frontend application  
+- Performance optimization using indexing  
+- Trigger implementation  
+- Data visualization integration  
+- Web-based deployment  
 
-Experience handling structured query logic
+---
 
-Analytical thinking using SQL
-
-Team collaboration in database development
-
-🔮 Future Improvements
-
-Integrating the database with a frontend interface
-
-Adding triggers and indexing for performance optimization
-
-Converting into a web-based application
-
-Connecting to data visualization tools
-
-📄 License
+## 📄 License  
 
 This project was developed for academic purposes.
